@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import CountryFlagList from '../presentational/flag-list.component';
 import { countries } from '../actions/actions-countries';
 
+import '../country.css';
+
 class CountryFlagContainer extends Component {
   constructor(props) {
     super(props);
